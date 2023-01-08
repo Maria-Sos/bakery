@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    background-color: #F9F3F3;
+}
+
+#bakeryVideo {
+    width: 100%;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    font-style: inherit;
+}
+
+h1 {
+    color: #694E4E;
+    font-family:'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
+.family {
+    color: dimgrey;
+    font-family:'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.sweet {
+    color: #F25287;
+    font-family:'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.features {
+    display: flex;
+    max-width: 700px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.plan{
+    display: flex;
+    flex-direction: column;
+    background-color: #F3E1E1;
+    margin: 20px;
+    padding: 20px;
+    flex: 1;
+}
+
+h3, img, a {
+    align-self: center;
+}
+
+.list {
+    background-color: #F9F3F3;
+    color: #685454;
+}
+
+h3 {
+    color: #7D5A5A;
+    font-family:'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.price {
+    color: #7D5A5A;
+    font-family:'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    align-self: center;
+}
+
+del {
+    background-color: #F1D4D4;
+}
+
+ins {
+    text-decoration: none;
+    display: inline-block;
+    transform: rotate(-7deg);
+    padding: 5px;
+}
+
+.cta {
+    color: #F9F3F3;
+    background-color: #F25287;
+    font-family:'Montserrat', sans-serif;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+}
