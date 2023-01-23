@@ -91,3 +91,24 @@ ins {
     padding: 5px;
     border-radius: 10px;
 }
+
+@media all and (max-width: 800px) {
+    .family {
+        font-size: 15px;
+    }
+    .sweet {
+        font-size: 15px;
+        margin-left: 35px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .family {
+        font-size: 15px;
+        margin-left: 30px;
+    }
+    .sweet {
+        font-size: 15px;
+        margin-left: 35px;
+    }
+}
